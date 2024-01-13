@@ -40,6 +40,19 @@ header .slogan a:hover{
     border: 1px solid #0a4533;
 }
 
+header .divider {
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .divider .vertline {
+    width: 2px;
+    height: 40px;
+    background-color: #e6ecea;
+}
+
 .logo {
     margin-left: 40px;
 }
